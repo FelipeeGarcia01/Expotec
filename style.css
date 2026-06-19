@@ -3,9 +3,21 @@ body {
 }
 
 #Titulo {
-    color: #00eeff;
-    border-color: #000000;
-    border-radius: 2px;
+    position: absolute;
+    height: 10%;
+    top: 40%;
+    left: 30%;
+    color: #00e1ff;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 1.5px;
+    font-family:sans-serif;
+}
+
+#Sobre {
+    color: #3eda00;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 0.9px;
+    font-family:'Courier New', Courier, monospace;
 }
 
 p {
