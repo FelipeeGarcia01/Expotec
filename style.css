@@ -1,9 +1,11 @@
 body {
-    background-color: black;
+    background: linear-gradient(to right, #0004ff, #92ee7b);
 }
 
-h1 {
-    color: white;
+#Titulo {
+    color: #00eeff;
+    border-color: #000000;
+    border-radius: 2px;
 }
 
 p {
