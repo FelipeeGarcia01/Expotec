@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Changa+One:ital@0;1&display=swap');
+
 body {
     background-image: url(FundoSite.jpeg);
     background-size: cover;
@@ -12,27 +15,65 @@ body {
     overflow: hidden;
 }
 
+
 #Titulo {
     position: fixed;
-    top: 45%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
 
-#Sobre {
-    color: #3eda00;
+#Titulo {
     -webkit-text-stroke-color: #000000;
     -webkit-text-stroke-width: 0.9px;
-    font-family:'Courier New', Courier, monospace;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#Sobre {
+    color: #160091;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.15rem;
 }
 
 #Sobre {
     position: absolute;
-    left: 1000000;
-    top: 50%;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 1.6;
+
 }
 
-p {
-    color: white;
+#ChamadaButton {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 70%;
+    text-align: center;
+}
+
+#ChamadaButton {
+    display: inline-block;
+    width: 25vw;
+    min-width: 180px;
+    height: 8vh;
+    min-height: 45px;
+    line-height: 8vh;
+}
+
+#ChamadaButton {
+    border-radius: 10vh;
+    border: #000000 2px solid;
+    background-color: #8fd2ff;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-size: 1.3vw;
+    font-style: normal;
+    color: #06005c;
+    z-index: 10;
+    cursor: pointer;
 }
