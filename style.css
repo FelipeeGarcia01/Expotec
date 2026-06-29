@@ -16,7 +16,7 @@ body {
 }
 
 
-#Titulo {
+#titulo {
     position: fixed;
     top: 40%;
     left: 50%;
@@ -24,7 +24,7 @@ body {
     text-align: center;
 }
 
-#Titulo {
+#titulo {
     -webkit-text-stroke-color: #000000;
     -webkit-text-stroke-width: 0.9px;
     font-family: "Black Ops One", system-ui;
@@ -32,13 +32,13 @@ body {
     font-style: normal;
 }
 
-#Sobre {
+#sobre {
     color: #160091;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.15rem;
 }
 
-#Sobre {
+#sobre {
     position: absolute;
     left: 50%;
     top: 55%;
@@ -48,7 +48,7 @@ body {
 
 }
 
-#ChamadaButton {
+#chamadaButton {
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
@@ -56,7 +56,7 @@ body {
     text-align: center;
 }
 
-#ChamadaButton {
+#chamadaButton {
     display: inline-block;
     width: 25vw;
     min-width: 180px;
@@ -65,7 +65,7 @@ body {
     line-height: 8vh;
 }
 
-#ChamadaButton {
+#chamadaButton {
     border-radius: 10vh;
     border: #000000 2px solid;
     background-color: #8fd2ff;
