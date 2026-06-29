@@ -1,4 +1,4 @@
-const botao_chamada = document.getElementById("chamadaButton")
+const botao_chamada = document.getElementsByClassName("chamadaButton")
 
 botao_chamada.addEventListener("click", function() {
     window.location.href = "Sobre.html"
