@@ -5,22 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nexus Project</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section>
-        <div> 
-            <h1 id="titulo"> Sua transformação começa hoje</h1>
-            <p id="sobre">
-                    No <strong>Nexus</strong>, você encontra apoio, orientação e ferramentas para desenvolver sua <strong>saúde física</strong>, fortalecer suas <strong>habilidades sociais</strong> e conquistar uma vida mais equilibrada. Comece hoje a jornada rumo à sua melhor versão.
-            </p>
+    <nav>
+        <div class="caixa">
+            <button class="login">Login</button>
+            <br>
+            <button class="perfil">Perfil</button>
+            <br>
+            <ins class="link-entrar">Já esteve conosco? <a href=""> entrar </a></ins>
         </div>
+    </nav>
+    <header> 
+        <h1 id="titulo"> Sua transformação começa hoje</h1>
+    </header>
+    <main>
+        <p id="sobre">
+                No <strong>Nexus</strong>, você encontra apoio, orientação e ferramentas para desenvolver sua <strong>saúde física</strong>, fortalecer suas <strong>habilidades sociais</strong> e conquistar uma vida mais equilibrada. Comece hoje a jornada rumo à sua melhor versão.
+        </p>
         <div> 
             <button class="chamada-button">
                 Iniciar minha jornada
             </button>
         </div>
-    </section>
+    </main>
 
+    <dialog class="login-tela">
+        <h2 class="iniciar-cadastro"> Iniciar cadastro </h2>
+        <form action="dialog">
+            <h3 class="h3_Inserir-email"> Insira seu email </h3>
+            <input type="email" placeholder="Gmail, hotmail, outlook..." class="caixa-email"> <p class="verify-email"> email incorreto</p>
+            <br>
+            <h3 class="h3_Inserir-senha"> Insira sua senha </h3>
+            <input type="text" placeholder="mínimo de 8 caracteres..." class="caixa-senha"> <p class="verify-senha"> senha incorreta</p>
+            <button class="login-google"> Registar-se com o Google <img src="channels4_profile.jpg" alt="foto google" class="imagem_google"> </button>
+        </form>
+        <button class="btn-Fechar">Fechar</button>
+    </dialog>
+    
+    <footer>
+        <p class="direitos-autorais">
+            Direitos Autorais &copy; Nexus. Todos os direitos reservados.
+        </p>
+        <div>
+            <p class="criadores">
+                 Deseja saber quem são os criadores?
+            </p>
+            <button class="btn-criadores">
+                Créditos!
+            </button>
+        </div>
+    </footer>
+
+    
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
     <script src="interatividade.js"> </script>
 </body>
 </html>
