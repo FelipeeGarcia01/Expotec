@@ -1,0 +1,206 @@
+@import url('https://googleapis.com');
+
+
+
+body {
+    background-image: url("Fundo do site obesidade.jpeg");
+    background-size: cover;
+    background-position: center center;
+
+    background-repeat: no-repeat !important ;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.direitos-autorais {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 90%;
+    text-align: center;
+    color:#4e4e4e
+}
+
+.titulo {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 3%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.subtitulo {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 8%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.introducao-inicial {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 22.85%;
+    top: 20%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.Linha_1 {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 15%;
+    left: 50%;
+    width: 120%;
+    height: 1%;
+    background-color: #000000;
+    opacity: 55%;
+}
+
+.Q-obesidade {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 6.65%;
+    top: 25%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.R-obesidade {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 34.5%;
+    top: 30%;
+}
+
+.Q-Afetacao {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 28.5%;
+    top: 35%;
+    font-size: 1vw;
+}
+
+.Topicos {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 33.5%;
+    top: 44.25%;
+}
+
+.Topicos2 {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 27.25%;
+    top: 68%;
+}
+
+.Q-IMC {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 20.85%;
+    top: 49%;
+}
+
+.R-IMC {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 8.25%;
+    top: 54%;
+}
+
+.Q-Riscos {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 11.75%;
+    top: 58%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.R-Riscos {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 34.5%;
+    top: 62%;
+}
+
+.Q-Mudar {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 12.5%;
+    top: 75%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.R-Mudar {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 34.5%;
+    top: 81%;
+}
+
+.tabela-video {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 85%;
+    top: 50%;
+    background-image: linear-gradient(to bottom right, #8dddf3, #0a14a0);
+    width: 20%;
+    height: 10%;
+    min-width: 200px;
+    min-height: 100px;
+    opacity: 80%;
+    border-radius: 10px;
+    border: 5px solid #000000;
+    transition: all 0.5s ease;
+}
+
+.chamar-video {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 35%;
+    top: 18.5%;
+    font-size: 1vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.link-video {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 26%;
+    top: 70%;
+}
+
+.img-play {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 90%;
+    top: 40%;
+    width: 20%;
+    height: auto;
+}
+
+mark {
+    border-radius: 8px;
+    padding: 0 4px;
+}
+
+.btn-voltar {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 88%;
+    top: 10%;
+    background-color: #bdf5f7;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Josefin Sans', 'Courier New', Courier, monospace;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    transition: all 0.5s ease;
+}

@@ -1,0 +1,150 @@
+@keyframes Flutuar {
+   0% {
+        -webkit-transform: translate(-50%, -50%) translateY(0px);
+    }
+    50% {
+        -webkit-transform: translate(-50%, -50%) translateY(-15px);
+    }
+
+    100% {
+        -webkit-transform: translate(-50%, -50%) translateY(0px)
+    }
+}
+
+body {
+    background-color: #000000;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat !important ;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.Tabela-Felipe {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: 40%;
+    background-color: #c5a1f5;
+    border-radius: 15px;
+    left: 35%;
+    top: 50%;
+    border: #8a00b4 4px, solid;
+    transition: all 0.4s ease-in-out;
+}
+
+.Nome-Fe {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    left: 50%;
+    top: 5%;
+    white-space: nowrap;
+    font-family: "Chewy", ui-sistem;
+
+}
+
+.Imagem-perfil-F {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 75%;
+    width: 50%;
+    height: auto;
+}
+
+.Contribuicoes-F {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 50%;
+    width: 90%;
+    font-size: 1.2rem;
+    font-family: "Comic Relief", system-ui;
+}
+
+
+
+.Tabela-Fabio {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: 40%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: #4003b1 4px, solid;
+    left: 65%;
+    top: 50%;
+    background-color: #a1a9f5;
+    transition: all 0.4s ease-in-out;
+}
+
+.Nome-Fa {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    left: 50%;
+    top: 5%;
+    white-space: nowrap;
+    font-family: "Chewy", ui-sistem;
+}
+
+.Imagem-perfil-Fa {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 75%;
+    border: 50%;
+    width: 50%;
+    height: auto;
+}
+
+.Contribuicoes-Fa {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 50%;
+    width: 90%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "Comic Relief", system-ui;
+}
+
+.titulo {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 10%;
+    font-family: "Fontdiner Swanky", serif;
+    color: #ffffff;
+    animation: Flutuar 5s ease-in-out infinite;
+}
+
+.Fabio-custom {
+    color: #00087aa6;
+}
+
+.Felipe-custom {
+    color:#8a00b4a6
+}
+
+.btn-voltar {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 88%;
+    top: 10%;
+    background-color: #a480b9;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Josefin Sans', 'Courier New', Courier, monospace;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    transition: all 0.5s ease;
+}

@@ -1,0 +1,276 @@
+body {
+    background-image: url(Fundo-planos.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat !important ;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.Titulo {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 4%;
+    font-family: "Limelight", sans-serif;
+}
+
+.sn-1 {
+    color: rgb(3, 240, 15);
+}
+
+.Planos {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 90%;
+    height: 50%;
+}
+
+.Plano-basic {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 20%;
+    top: 50%;
+    width: 20%;
+    height: auto;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(133, 176, 240, 0.5);
+    transition: all 0.5s ease; 
+}
+
+.nome-planoB {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 0%;
+    left: 50%;
+    font-family: "Story Script", sans-serif;
+}
+
+.sobre-planoB {
+    font-family: "Comic Relief", system-ui;
+}
+
+.lista-planoB {
+    font-family: "Comic Relief", system-ui;
+}
+
+.produtos-planoB{
+    font-family: "Comic Relief", system-ui;
+}
+
+.chamar-planoB {
+    font-family: "Comic Relief", system-ui;
+}
+
+.valor-Basico {
+    font-family: "DynaPuff", system-ui;
+    color: #08f300;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 89%;
+    left: 50%;
+    font-size: 1.5rem;
+    -webkit-text-stroke: #000000 .7px;
+}
+
+.assinatura-basic {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 115%;
+    left: 50%;
+    background-color: #0066ff;
+    color: #ffffff;
+    width: 50%;
+    height: 12.5%;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-family: "Kaushan Script", cursive;
+    transition: all 0.3s ease-in-out;
+}
+
+.Plano-intermediario {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 20%;
+    height: auto;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(221, 194, 76, 0.5); 
+    transition: all 0.5s ease;
+}
+
+.nome-planoI {
+    font-family: "Story Script", sans-serif;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 0%;
+    left: 50%;
+}
+
+.sobre-planoI {
+    font-family: "Comic Relief", system-ui;
+}
+
+.lista-planoI {
+    font-family: "Comic Relief", system-ui;
+}
+
+.produtos-planoI {
+    font-family: "Comic Relief", system-ui;
+}
+
+.chamar-planoI {
+    font-family: "Comic Relief", system-ui;
+}
+
+.sn-agoraI {
+    color: #2600ff;
+}
+
+.recomendado-planoI {
+    font-family: "Ultra", serif;
+    -webkit-text-stroke: .3px black;
+    color: oklch(70% 0.35 140);
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: -20%;
+    font-size: 2rem;
+}
+
+.valor-Intermediario {
+    font-family: "DynaPuff", system-ui;
+    color: #08f300;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 89%;
+    left: 50%;
+    font-size: 1.5rem;
+    -webkit-text-stroke: #000000 .7px;
+}
+
+.assinatura-recomend {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 115%;
+    left: 50%;
+    background-color: #b3a702;
+    color: #ffffff;
+    width: 50%;
+    height: 12.5%;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-family: "Kaushan Script", cursive;
+    transition: all 0.3s ease-in-out;
+}
+
+.Plano-pro {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 80%;
+    top: 50%;
+    width: 20%;
+    height: auto;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(150, 196, 150, 0.5);
+    transition: all 0.5s ease;
+}
+
+.nome-planoP {
+    font-family: "Story Script", sans-serif;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 0%;
+    left: 50%;
+}
+
+.sobre-planoP {
+    font-family: "Comic Relief", system-ui;
+}
+
+.lista-planoP {
+    font-family: "Comic Relief", system-ui;
+}
+
+.produtos-planoP {
+    font-family: "Comic Relief", system-ui;
+}
+
+.chamar-planoP {
+    font-family: "Comic Relief", system-ui;
+}
+
+.valor-Pro {
+    font-family: "DynaPuff", system-ui;
+    color: #08f300;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 89%;
+    left: 50%;
+    font-size: 1.5rem;
+    -webkit-text-stroke: #000000 .7px;
+}
+
+.assinatura-pro {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 115%;
+    left: 50%;
+    background-color: #019941;
+    color: #ffffff;
+    width: 50%;
+    height: 12.5%;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-family: "Kaushan Script", cursive;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.direitos-autorais {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 90%;
+    text-align: center;
+    color:#4e4e4e
+}
+
+.btn-voltar {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 88%;
+    top: 10%;
+    background-color: #ffee04;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Josefin Sans', 'Courier New', Courier, monospace;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    transition: all 0.5s ease;
+}

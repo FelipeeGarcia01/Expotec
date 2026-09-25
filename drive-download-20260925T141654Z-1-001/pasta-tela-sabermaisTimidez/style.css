@@ -1,0 +1,271 @@
+@import url('https://googleapis.com');
+
+
+body {
+    background-image: url("Fundo_do_site_timidez.jpeg");
+    background-size: cover;
+    background-position: center center;
+
+    background-repeat: no-repeat !important ;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 0;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.direitos-autorais {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 160%;
+    text-align: center;
+    color:#4e4e4e
+}
+
+.Titulo-tema {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 2.5%;
+}
+
+.P-Principal {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 18%;
+    top: 16%;
+}
+
+.R-Principal {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 35%;
+    top: 23%;
+}
+
+
+
+.P-Antissocial {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 11.5%;
+    top: 29%;
+}
+
+.R-Antissocial {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 35%;
+    top: 38%;
+}
+
+.P-Sociopata {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 9.5%;
+    top: 46.5%;
+}
+
+.R-Sociopata {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 35%;
+    top: 55%;
+}
+
+.P-TPA {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 16.3%;
+    top: 63%;
+}
+
+.R-TPA {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 35%;
+    top: 69.5%;
+}
+
+.P-Sofrer {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 12.25%;
+    top: 76%;
+}
+
+.R-Sofrer {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 35%;
+    top: 83%;
+}
+
+.R-Sofrer2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 30.85%;
+    top: 88%;
+}
+
+.P-Causas {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 13.25%;
+    top: 91.5%;
+}
+
+.R-Causas {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 35%;
+    top: 96.5%;
+}
+
+.R-Causas2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 35%;
+    top: 113%;
+}
+
+.Atencao {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 5.5%;
+    top: 117.5%;
+}
+
+.R-Atencao {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 35%;
+    top: 122%;
+}
+
+.R-Atencao2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 35%;
+    top: 133%;
+}
+
+.A-Solidao {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 13.5%;
+    top: 137.5%;
+}
+
+.R-Solidao {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 35%;
+    top: 145.5%;
+}
+
+.chamar-video {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 150%;
+}
+
+.Topico-1 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 12.5%;
+    top: 105%;
+}
+
+.Topico-2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 6%;
+    top: 127.85%;
+}
+
+.Linha-div {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 10%;
+    width: 150%;
+    height: 2%;
+    background-color: #000000;
+    opacity: 55%;
+}
+
+mark {
+    border-radius: 8px;
+    padding: 0 4px;
+}
+
+.btn-voltar {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 90%;
+    top: 6%;
+    background-color: #fce682;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Josefin Sans', 'Courier New', Courier, monospace;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    transition: all 0.5s ease;
+}
+
+
+.tabela-video {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 85%;
+    top: 120%;
+    background-image: linear-gradient(to bottom right, #b7f3a8, #044e02);
+    width: 20%;
+    height: 10%;
+    min-width: 200px;
+    min-height: 100px;
+    opacity: 80%;
+    border-radius: 10px;
+    border: 5px solid #000000;
+    transition: all 0.5s ease;
+}
+
+.chamar-video {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 35%;
+    top: 18.5%;
+    font-size: 1vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.link-video {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 26%;
+    top: 70%;
+}
+
+.img-play {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 90%;
+    top: 40%;
+    width: 20%;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #000000;
+    text-align: center;
+}
